@@ -1,33 +1,20 @@
 {
-  "name": "r3f-vite-starter",
+  "name": "dexterix-5.0",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.108.1",
-    "@react-three/fiber": "^8.16.8",
-    "@types/three": "0.152.1",
-    "autoprefixer": "^10.4.19",
-    "jotai": "^2.8.4",
-    "leva": "^0.9.35",
-    "maath": "^0.10.8",
-    "postcss": "^8.4.39",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.4.4",
-    "three": "^0.166.1",
-    "three-stdlib": "^2.30.4",
-    "wiggle": "^0.0.17"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.1.0"
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
   }
 }
