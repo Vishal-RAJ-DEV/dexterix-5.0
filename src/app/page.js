@@ -1,3 +1,4 @@
+import AboutUs from "@/components/About";
 import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
 import CyberpunkTimeline from "@/components/TImeline";
@@ -11,6 +12,7 @@ export default function Home() {
 
       
       <CyberpunkTimeline />
+      <AboutUs/>
 
       <Footer />
 
