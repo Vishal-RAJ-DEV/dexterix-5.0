@@ -16,6 +16,29 @@ const CyberpunkTimeline = () => {
       {/* Grid overlay (kept but subtle) */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,247,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,247,255,0.05)_1px,transparent_1px)] bg-[length:20px_20px] pointer-events-none z-10"></div>
 
+      <div className="absolute inset-0 grid grid-cols-5 grid-rows-4 pointer-events-none z-0">
+        <div className="flex justify-center items-center text-8xl opacity-10">⚡</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🧪</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🚀</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">👥</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🔬</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💉</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🩺</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💊</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🥼</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">⚡</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🧪</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🚀</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">👥</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🔬</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💉</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🩺</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💊</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🥼</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💉</div>
+
+      </div>
+
       {/* Header */}
       <div className="text-center mb-8 pb-4 border-b-2 border-[#ff00aa] relative z-20">
         <h1 className="text-[2.6rem] text-[var(--color-red-500)] uppercase tracking-[3px] mb-2">

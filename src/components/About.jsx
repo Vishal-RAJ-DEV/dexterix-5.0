@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,247,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,247,255,0.05)_1px,transparent_1px)] bg-[length:20px_20px] pointer-events-none z-10"></div>
 
       {/* Background Grid Emojis (outside cards) */}
-      <div className="absolute inset-0 grid grid-cols-3 grid-rows-3 pointer-events-none z-0">
+      <div className="absolute inset-0 grid grid-cols-5 grid-rows-4 pointer-events-none z-0">
         <div className="flex justify-center items-center text-8xl opacity-10">⚡</div>
         <div className="flex justify-center items-center text-8xl opacity-10">🧪</div>
         <div className="flex justify-center items-center text-8xl opacity-10">🚀</div>
@@ -17,6 +17,17 @@ const AboutUs = () => {
         <div className="flex justify-center items-center text-8xl opacity-10">🩺</div>
         <div className="flex justify-center items-center text-8xl opacity-10">💊</div>
         <div className="flex justify-center items-center text-8xl opacity-10">🥼</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">⚡</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🧪</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🚀</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">👥</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🔬</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💉</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🩺</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💊</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">🥼</div>
+        <div className="flex justify-center items-center text-8xl opacity-10">💉</div>
+
       </div>
 
       <div className="container mx-auto px-4 py-16 grid grid-cols-1 gap-12 max-w-4xl relative z-10">
