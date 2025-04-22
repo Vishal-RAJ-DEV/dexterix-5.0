@@ -1,8 +1,16 @@
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";  // Changed import name
 import Image from "next/image";
 
-export default function Home() {
+export default function Page() {  // Renamed function to avoid conflict
   return (
-    <Footer/>
+    <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#71225311] text-white bg-no-repeat w-full overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <Footer />
+
+    </div>
+
   );
 }

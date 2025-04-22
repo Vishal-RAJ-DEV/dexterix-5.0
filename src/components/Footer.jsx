@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="footer grainy-effect bg-[#1a102d] text-white px-4 py-10 relative z-10">
-            <div className="footer-overlay max-w-7xl mx-auto grid grid-flow-row justify-between md:grid-flow-col auto-cols-min gap-10 text-center md:text-left">
+        <footer className="footer grainy-effect min-w-full bg-[#1a102d] text-white px-4 py-10 relative z-10">
+            <div className="footer-overlay  mx-auto grid grid-flow-row justify-between md:grid-flow-col auto-cols-min gap-10 text-center md:text-left">
                 <div className="min-w-fit whitespace-nowrap">
                     <img src="/assets/dexterix-logo.png" alt="Dexterix Logo" className="w-25 h-25 mx-auto md:mx-0 h-20 mb-4" />
                     <h3 className="text-red-500 text-xl font-extralight">Build. Break. Repeat.</h3>
